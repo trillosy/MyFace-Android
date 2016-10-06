@@ -3,5 +3,10 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
 
-
+    <TextView
+        style="@style/txtTitulo"
+        android:text="@string/help_titulo"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="204dp"
+        android:id="@+id/txtBienvenida" />
 </RelativeLayout>
