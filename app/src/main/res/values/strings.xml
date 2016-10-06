@@ -5,10 +5,7 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_salir">Salir</string>
-
-    <string name="facebook_app_id">545194869009256</string>
 
     <string name="home">Inicio</string>
     <string name="sesion">Facebook</string>
@@ -22,6 +19,6 @@
         \t 2. Desarrollar e implementar banner publicitarios en nuestras aplicaciones nativas.\n\n
         \t 3. Hacer uso de un repositorio GitHub a través de Android Studio.</string>
 
+    <string name="facebook_app_id">545194869009256</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
-
 </resources>

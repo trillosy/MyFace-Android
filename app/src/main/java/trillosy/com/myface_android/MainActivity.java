@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Botón de descripción de la APP
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -66,9 +67,6 @@ public class MainActivity extends AppCompatActivity
                 .build();
         */
         mAdView.loadAd(adRequest);
-
-
-
         // Se verifica si tiene una sesión de Facebook activa, en el caso que no se manda a iniciar sesión.
         if(AccessToken.getCurrentAccessToken()==null){
             goLoginScreen();
@@ -102,7 +100,7 @@ public class MainActivity extends AppCompatActivity
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
+        //Salir de APP
         if (id == R.id.action_salir) {
             System.exit(0);
         }
