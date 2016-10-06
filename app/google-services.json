@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "610369708957",
+    "firebase_url": "https://myface-android.firebaseio.com",
+    "project_id": "myface-android",
+    "storage_bucket": "myface-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610369708957:android:0a49c536119fcb40",
+        "android_client_info": {
+          "package_name": "trillosy.com.myface_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610369708957-qdru5p7hrdbud8lh9vistq8s4sijbn3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trillosy.com.myface_android",
+            "certificate_hash": "CE379EF93639B3FB77346D2EB640CC3F7C4410C2"
+          }
+        },
+        {
+          "client_id": "610369708957-eg0317a2ja6ba2t5hv4um498hi250n3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJNJw_0r9WlOdb2S5yXsf5HMpNR_-IAL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610369708957-eg0317a2ja6ba2t5hv4um498hi250n3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
